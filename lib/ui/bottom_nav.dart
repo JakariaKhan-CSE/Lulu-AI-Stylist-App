@@ -14,14 +14,14 @@ class BottomNavController extends StatefulWidget {
 class _HomePageState extends State<BottomNavController> {
   int x=0;
 
-  final _pages = [ExplorerScreen(),ProfileScreen()];
+  final _pages = [ExplorerScreen(),Profile()];
 
   @override
   Widget build(BuildContext context) {
 
 
     return Scaffold(
-      appBar: AppBar(title: Text("E-Commerce"),centerTitle: true,),
+      appBar: AppBar(title: Text("Lulu AI Stylist App"),centerTitle: true,),
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: x,
         elevation: 5,

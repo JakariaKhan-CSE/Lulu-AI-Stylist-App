@@ -6,7 +6,7 @@ class ExplorerScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Stylists')),
+      // appBar: AppBar(title: Text('Stylists')),
       body: ListView.builder(
         itemCount: 10, // Placeholder for number of stylists
         itemBuilder: (context, index) {
