@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "986791997677",
+    "project_id": "lulu-ai-stylist-app",
+    "storage_bucket": "lulu-ai-stylist-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:986791997677:android:dffe5878eef4c10a695ce4",
+        "android_client_info": {
+          "package_name": "com.example.lulu_ai_stylist"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDF6gDjN34GQACR5SuaKmaQHfxYKnwyZj4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
