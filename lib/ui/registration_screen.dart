@@ -31,7 +31,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
       if(authCredential!.uid.isNotEmpty)
       {
 
-        Navigator.pushReplacement(context, MaterialPageRoute(builder: (_)=>BottomNavController()));
+        Navigator.pushReplacement(context, MaterialPageRoute(builder: (_)=>LoginScreen()));
       }
       else{
         ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text('Something is wrong')));
