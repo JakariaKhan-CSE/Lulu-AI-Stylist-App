@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'login_signup_screen.dart';
+import 'login_screen.dart';
 
 
 class SplashScreen extends StatelessWidget {
@@ -9,7 +9,7 @@ class SplashScreen extends StatelessWidget {
     Future.delayed(Duration(seconds: 2), () {
       Navigator.pushReplacement(
         context,
-        MaterialPageRoute(builder: (context) => LoginSignupScreen()),
+        MaterialPageRoute(builder: (context) => LoginScreen()),
       );
     });
 
